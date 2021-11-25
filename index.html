@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ETCH-A-SCETCH</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>ETCH-A-SKETCH</h1>
+        <div class="controls">
+            <div class="blackBtnContainer">
+                <button type="button" class = "blackBtn">Black</button>
+            </div>
+            <div class="greyBtnContainer">
+                <button type="button" class = "greyBtn">Greyscale</button>
+            </div>
+            <div class="rgbBtnContainer">
+                <button type="button" class = "rgbBtn">Random RGB</button>
+            </div>
+            <div class="resetBtnContainer">
+                <button type='button' class ="resetBtn">Reset Sketcher</button>
+            </div>
+        </div>
+      
+        <div class = "mainContainer"></div>
+
+        <div class="resSlider">
+            <h3 class="resReadout">Resolution: 16 x 16</h3>
+            <input type="range" min="16" max="100" value="16" class="slider" id="resRange">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
