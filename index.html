@@ -1,38 +1,160 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ETCH-A-SCETCH</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>ETCH-A-SKETCH</h1>
-        <div class="controls">
-            <div class="blackBtnContainer">
-                <button type="button" class = "blackBtn">Black</button>
-            </div>
-            <div class="greyBtnContainer">
-                <button type="button" class = "greyBtn">Greyscale</button>
-            </div>
-            <div class="rgbBtnContainer">
-                <button type="button" class = "rgbBtn">Random RGB</button>
-            </div>
-            <div class="resetBtnContainer">
-                <button type='button' class ="resetBtn">Reset Sketcher</button>
-            </div>
-        </div>
-      
-        <div class = "mainContainer"></div>
+	<head>
+		<title>Sam Benning's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-        <div class="resSlider">
-            <h3 class="resReadout">Resolution: 16 x 16</h3>
-            <input type="range" min="16" max="100" value="16" class="slider" id="resRange">
-        </div>
 
-        <script src="script.js"></script>
-    </body>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi! I'm <strong>Sam Benning</strong>.</h1>
+							</header>
+							<p>Welcome to my portfolio website.</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>A little bit about me.</h2>
+						<p>I am a problem solver by nature.</p>
+						<p>I started my career as a facilities maintenance technician and later moved into a role as an HVAC service technician. My grit, determination,
+							and problem-solving prowess led me to constant success in those fields took me from having minimal mechanical knowledge to being able to perform highly skilled work in a very short span of time.</p>
+						<p>Now I am bringing that same grit and determination to my first role in the field of software development. I am currently studying Computer Science at Western Governors University.</p>
+					</header>
+
+					<header>
+						<h2>Here are the technologies I am familiar with.</h2>
+					</header>
+					<div class="row aln-center">
+						<i class="devicon-java-plain-wordmark" style="font-size: 150px"></i>
+						<i class="devicon-python-plain-wordmark" style="font-size: 150px"></i>
+						<i class="devicon-javascript-plain" style="font-size: 150px"></i>
+						<i class="devicon-mysql-plain-wordmark" style="font-size: 150px"></i>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>My Projects</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/schedulerPrev.gif" alt="" /></a>
+								<h3><a href="#">Quick Scheduler</a></h3>
+								<p>Appointment management software built using JavaFX.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/inventorymgmtPrev.gif" alt="" /></a>
+								<h3><a href="#">Inventory Management System</a></h3>
+								<p>A simple inventory management system built using JavaFX.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/sketcherPrev.gif" alt="" /></a>
+								<h3><a href="etchasketch.html">Etch-A-Sketch</a></h3>
+								<p>A fun little web app that lets you draw by simply dragging your cursor.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
