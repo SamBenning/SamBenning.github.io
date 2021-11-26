@@ -88,7 +88,7 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 0em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
