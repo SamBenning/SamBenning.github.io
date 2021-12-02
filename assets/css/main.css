@@ -38,6 +38,10 @@ body {
 	line-height: 1;
 }
 
+.box.style3 {
+	justify-content: left;
+}
+
 ol, ul {
 	list-style: none;
 }
